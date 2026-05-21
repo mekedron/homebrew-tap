@@ -4,28 +4,28 @@
 class WoltCli < Formula
   desc "Unofficial community CLI for interacting with Wolt APIs"
   homepage "https://github.com/mekedron/wolt-cli"
-  version "1.0.0"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/mekedron/wolt-cli/releases/download/v1.0.0/wolt_v1.0.0_darwin_amd64.tar.gz"
-      sha256 "eb2d7444f4f392bed23e9b937a1406426fed33c91fe615819d3225c31de3ffac"
+      url "https://github.com/mekedron/wolt-cli/releases/download/v1.1.0/wolt_v1.1.0_darwin_amd64.tar.gz"
+      sha256 "426f4539f119928e35afa534d59dd90d815c46a3bdddb2b1a89c0561a3a3ef0c"
     end
     if Hardware::CPU.arm?
-      url "https://github.com/mekedron/wolt-cli/releases/download/v1.0.0/wolt_v1.0.0_darwin_arm64.tar.gz"
-      sha256 "fcee74eb2be524e0fa12c9899a1f589368ce7b2ec99e0b98c5e323d14713a6ae"
+      url "https://github.com/mekedron/wolt-cli/releases/download/v1.1.0/wolt_v1.1.0_darwin_arm64.tar.gz"
+      sha256 "84a44343ffa8c70e7f5b41a0dbfe94612065d22a3b2309876eb0b27788053c45"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mekedron/wolt-cli/releases/download/v1.0.0/wolt_v1.0.0_linux_amd64.tar.gz"
-      sha256 "203ac36ccc151cf4ead1a451a43619a15b306a9de3af7699807151802626cf87"
+      url "https://github.com/mekedron/wolt-cli/releases/download/v1.1.0/wolt_v1.1.0_linux_amd64.tar.gz"
+      sha256 "09b51655fe132d052847cbae9740f74932f7d94e59e319ae978ce15baafde89c"
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/mekedron/wolt-cli/releases/download/v1.0.0/wolt_v1.0.0_linux_arm64.tar.gz"
-      sha256 "0f05612c014a42e89c19e9a8fbbfd8643b769c5820e92455376823a963472340"
+      url "https://github.com/mekedron/wolt-cli/releases/download/v1.1.0/wolt_v1.1.0_linux_arm64.tar.gz"
+      sha256 "0fdadb6a6a03f1cfd7695be6ba1dddd346d97d58307f647bf50e3e230514bc9f"
     end
   end
 
