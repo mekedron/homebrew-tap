@@ -1,6 +1,6 @@
 cask "clipslop" do
-  version "1.3.4"
-  sha256 "45fad80e66701cc16667ab1e98cfd11b4fb50ea087ccd6548e186c5302f10c55"
+  version "2.0.0"
+  sha256 "0be01c5eb55621c44b51a134ce278503f56b900bfefe7c61807fb0599b2d9f27"
 
   url "https://github.com/mekedron/clipslop/releases/download/v#{version}/ClipSlop-#{version}-macOS.dmg"
   name "ClipSlop"
@@ -13,6 +13,7 @@ cask "clipslop" do
 
   zap trash: [
     "~/Library/Application Support/ClipSlop",
+    "~/Library/Preferences/com.mekedron.clipslop.plist",
     "~/Library/Preferences/com.clipslop.app.plist",
   ]
 end
