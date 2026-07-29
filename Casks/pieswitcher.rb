@@ -1,6 +1,6 @@
 cask "pieswitcher" do
-  version "1.1.1"
-  sha256 "cf53502a8fc5de8f6b2161edb18f1302da65f2cc918ce426a8019fd6d912f736"
+  version "1.1.2"
+  sha256 "64d10b22437bcf620220ce4ffa09f1ba6033578af435d11bb4191fe84a755b8d"
 
   url "https://github.com/mekedron/PieSwitcher/releases/download/v#{version}/PieSwitcher-#{version}-macOS.dmg"
   name "PieSwitcher"
