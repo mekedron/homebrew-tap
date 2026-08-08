@@ -1,6 +1,6 @@
 cask "hiddenbaricons" do
-  version "1.0.1"
-  sha256 "1d625fdf559231a7f8a5546d796adf4b244b2fc6409711044007354f9981196a"
+  version "1.1.0"
+  sha256 "26894d81d60e880234b5a7ce8b003e8b8f39ff830a04411d559c603e1cabbd6d"
 
   url "https://github.com/mekedron/HiddenBarIcons/releases/download/v#{version}/HiddenBarIcons-#{version}-macOS.dmg"
   name "HiddenBarIcons"
